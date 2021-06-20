@@ -1,0 +1,98 @@
+.slide2Container {
+  background-image: url('../../img/bg_slide_2.png');
+  width: 1024px;
+  height: 768px;
+  background-size: contain;
+  flex-shrink: 0;
+  position: relative;
+  scroll-snap-align: end;
+  scroll-snap-stop: always;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 10.734px;
+  font-family: "DINPro";
+  color: rgb(36, 36, 36);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 2.5,0,0,2.5,0,0);
+  -webkit-transform: matrix( 2.5,0,0,2.5,0,0);
+  -ms-transform: matrix( 2.5,0,0,2.5,0,0);
+  transform: matrix( 2.5,0,0,2.5,0,0);
+  position: absolute;
+  left: 141px;
+  top: 158px;
+  z-index: 30;
+  font-weight: normal;
+}
+
+.scrollbar {
+  overflow-y: scroll;
+  direction:rtl;
+  position: absolute;
+  left: 95px;
+  top: 265px;
+  width: 800px;
+  height: 380px;
+  padding-right: 30px;
+  z-index: 29;   
+}
+
+.textContainer {
+  width: 775px;
+  height: 445px;
+  position: absolute;
+  left: 138px;
+  top: 240px;
+  border-radius: 40px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5.446px 8.387px 232.5px 17.5px rgba(157, 185, 198, 0.39);
+  z-index: 28;   
+}
+
+.text {
+  font-size: 23px;
+  font-family: "DINPro";
+  color: rgb(23, 23, 23);
+  line-height: 1.364;
+  text-align: justify;
+  direction:ltr;
+  width: 715px;
+  top: -10px;
+  left: -10px;
+  position: relative;
+  z-index: 28;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 21px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgb(207, 87, 141);
+  border-radius: 19px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background-clip: content-box;
+  background-image: url(../../img/scroll_line.png);
+  background-repeat: repeat-y;
+  background-position: 50%;
+  background-size: contain;
+}
+
+.image {
+  position: absolute;
+  z-index: 23;
+}
+
+.imageAnimation {
+  animation: elemMove 3s alternate forwards;
+}
+
+@keyframes elemMove {
+  0% {transform: translate(100px, 100px) }
+  100% {transform: translate(0, 0) }
+}

@@ -1,0 +1,175 @@
+.modalContainer {
+  background-color: rgb(22, 39, 62, 0.702);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1024px;
+  height: 768px;
+  z-index: 46;
+}
+
+.textContainer {
+  border-radius: 40px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 140px;
+  top: 123px;
+  width: 822px;
+  height: 573px;
+  z-index: 70;
+}
+
+.modalSubtitle {
+  font-size: 5px;
+  font-family: "DINPro";
+  color: rgb(36, 36, 36);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  transform: matrix( 5.07288435581728,0,0,5.03087612481503,0,0);
+  -moz-transform: matrix( 5.07288435581728,0,0,5.03087612481503,0,0);
+  -webkit-transform: matrix( 5.07288435581728,0,0,5.03087612481503,0,0);
+  -ms-transform: matrix( 5.07288435581728,0,0,5.03087612481503,0,0);
+  position: absolute;
+  left: 320px;
+  top: 58px;
+  z-index: 86;
+  margin: 0;
+}
+
+.modalInfoContainer {
+  position: absolute;
+  left: 235px;
+  top: 200px;
+  width: 480px;
+  height: 250px;
+  z-index: 76;
+}
+
+.pointsStyle {
+  font-size: 9px;
+  font-family: "Gilroy";
+  color: rgb(140, 201, 232);
+  font-weight: bold;
+  line-height: 1.2;
+  transform: matrix( 2.67752627977536,0,0,2.67752627977536,0,0);
+  -moz-transform: matrix( 2.67752627977536,0,0,2.67752627977536,0,0);
+  -webkit-transform: matrix( 2.67752627977536,0,0,2.67752627977536,0,0);
+  -ms-transform: matrix( 2.67752627977536,0,0,2.67752627977536,0,0);
+  z-index: 75;
+  margin: 0;
+  position: relative;
+  left: 400px;
+}
+
+.points1Position {
+  top: 10px;
+  
+}
+.points2Position {
+  top: 80px;
+  
+}
+.points3Position {
+  top: 140px;
+  
+}
+
+.modalTextStyle {
+  font-size: 9px;
+  font-family: "DINPro";
+  color: rgb(46, 46, 46);
+  line-height: 1.2;
+  transform: matrix( 2.67752627977536,0,0,2.67752627977536,0,0);
+  -moz-transform: matrix( 2.67752627977536,0,0,2.67752627977536,0,0);
+  -webkit-transform: matrix( 2.67752627977536,0,0,2.67752627977536,0,0);
+  -ms-transform: matrix( 2.67752627977536,0,0,2.67752627977536,0,0);
+  position: relative;
+  left: 400px;
+  z-index: 72;
+  margin: 0;
+}
+
+.modalText1Position {
+  top: 40px;
+  
+}
+
+.modalText2Position {
+  top: 100px;
+  
+}
+
+.modalText3Position {
+  top: 160px;
+}
+
+.handleModalInfoSliderContainer {
+  position: absolute;
+  left: 235px;
+  top: 500px;
+  width: 100px;
+  height: 40px;
+  z-index: 76;
+}
+
+.handleModalInfoSliderIndicator {
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  z-index: 90;
+  
+}
+
+.handleModalInfoSliderIndicatorActive {
+  background-color: #fc6da9;
+  transition: background-color 1s ease;
+  border-color: #fc6da9;
+}
+
+.handleModalInfoSliderIndicator1Pos {
+  top: 10px;
+  left: 30px;
+}
+
+
+.handleModalInfoSliderIndicator2Pos {
+  top: 10px;
+  left: 50px;
+}
+
+
+
+.closeButton {
+  position: absolute;
+  z-index: 80;
+  top: 155px;
+  right: 100px;
+  padding: 0;
+  border: 0;
+  background: rgba(0, 0, 0, 0);
+}
+
+.previousButton {
+  position: absolute;
+  padding: 0;
+  border: 0;
+  background: rgba(0, 0, 0, 0);
+  z-index: 91;
+  top: 10px;
+}
+
+.nextButton {
+  position: absolute;
+  padding: 0;
+  border: 0;
+  background: rgba(0, 0, 0, 0);
+  z-index: 91;
+  top: 10px;
+  left: 80px;
+}

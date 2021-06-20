@@ -1,0 +1,244 @@
+.slide3Container {
+  background-image: url('../../img/bg_slide3.png');
+  width: 1024px;
+  height: 768px;
+  background-size: contain;
+  flex-shrink: 0;
+  position: relative;
+  scroll-snap-align: end;
+  scroll-snap-stop: always;
+  overflow: hidden;
+}
+
+.bottle {
+  position: absolute;
+  z-index: 49;
+}
+
+.bubble1 {
+  opacity: 0.929;
+  position: absolute;
+  left: 252px;
+  top: 575px;
+  z-index: 46;
+}
+
+.bubble2 {
+  opacity: 0.929;
+  position: absolute;
+  left: 198px;
+  top: 66px;
+  z-index: 45;
+}
+
+.bubble3 {
+  opacity: 0.929;
+  position: absolute;
+  left: 186px;
+  top: 317px;
+  z-index: 46;
+}
+
+.bubble4 {
+  opacity: 0.878;
+  position: absolute;
+  left: 77px;
+  top: 212px;
+  z-index: 47;
+}
+
+.bubble5 {
+  opacity: 0.929;
+  position: absolute;
+  left: 25px;
+  top: 553px;
+  z-index: 50;
+}
+
+.bubble6 {
+  opacity: 0.929;
+  position: absolute;
+  left: 11px;
+  top: 453px;
+  z-index: 51;
+}
+
+.bubble7 {
+  opacity: 0.929;
+  position: absolute;
+  left: 183px;
+  top: 703px;
+  z-index: 52;
+}
+
+.bubble7 {
+  opacity: 0.929;
+  position: absolute;
+  left: 183px;
+  top: 703px;
+  z-index: 52;
+}
+
+.bubble8 {
+  opacity: 0.929;
+  position: absolute;
+  left: 184px;
+  top: 155px;
+  z-index: 53;
+}
+
+.subtitleSlide3 {
+  font-size: 5px;
+  font-family: "DINPro";
+  color: rgb(36, 36, 36);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  transform: matrix( 5.07288435581728,0,0,5.03087612481503,0,0);
+  -moz-transform: matrix( 5.07288435581728,0,0,5.03087612481503,0,0);
+  -webkit-transform: matrix( 5.07288435581728,0,0,5.03087612481503,0,0);
+  -ms-transform: matrix( 5.07288435581728,0,0,5.03087612481503,0,0);
+  position: absolute;
+  font-weight: normal;
+  left: 494px;
+  top: 178px;
+  z-index: 45;
+  margin: 0;
+}
+
+.titleSlide3 {
+  font-size: 19px;
+  font-family: "Gilroy";
+  color: rgb(36, 36, 36);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  transform: matrix( 5.07288435581728,0,0,5.03087612481503,0,0);
+  -moz-transform: matrix( 5.07288435581728,0,0,5.03087612481503,0,0);
+  -webkit-transform: matrix( 5.07288435581728,0,0,5.03087612481503,0,0);
+  -ms-transform: matrix( 5.07288435581728,0,0,5.03087612481503,0,0);
+  position: absolute;
+  left: 547px;
+  top: 242px;
+  z-index: 56;
+  margin: 0;
+  font-weight: normal;
+}
+
+.textContainerLeft {
+  border-radius: 40px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5.446px 8.387px 232.5px 17.5px rgba(157, 185, 198, 0.39);
+  position: absolute;
+  left: 227px;
+  top: 379px;
+  width: 413px;
+  height: 265px;
+  z-index: 38;
+}
+
+.icon1 {
+  position: relative;
+  left: 120px;
+  top: -30px;
+}
+
+.txt1 {
+  font-size: 9px;
+  font-family: "DINPro";
+  color: rgb(46, 46, 46);
+  line-height: 1.2;
+  transform: matrix( 2.67752627977536,0,0,2.67752627977536,0,0);
+  -moz-transform: matrix( 2.67752627977536,0,0,2.67752627977536,0,0);
+  -webkit-transform: matrix( 2.67752627977536,0,0,2.67752627977536,0,0);
+  -ms-transform: matrix( 2.67752627977536,0,0,2.67752627977536,0,0);
+  position: relative;
+  left: 216px;
+  top: 140px;
+  z-index: 39;
+  height: 200px;
+  width: 100px;
+}
+
+.textContainerRight {
+  border-radius: 40px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5.446px 8.387px 232.5px 17.5px rgba(157, 185, 198, 0.39);
+  position: absolute;
+  left: 681px;
+  top: 379px;
+  width: 263px;
+  height: 150px;
+  z-index: 38;
+}
+
+
+.icon2 {
+  position: relative;
+  left: 40px;
+  top: -30px;
+}
+
+.txt2 {
+  font-size: 9px;
+  font-family: "DINPro";
+  color: rgb(46, 46, 46);
+  line-height: 1.2;
+  transform: matrix( 2.67752627977536,0,0,2.67752627977536,0,0);
+  -moz-transform: matrix( 2.67752627977536,0,0,2.67752627977536,0,0);
+  -webkit-transform: matrix( 2.67752627977536,0,0,2.67752627977536,0,0);
+  -ms-transform: matrix( 2.67752627977536,0,0,2.67752627977536,0,0);
+  position: relative;
+  left: 260px;
+  z-index: 61;
+}
+
+.buttonMoreContainer {
+  border: none;
+  background: rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 560px;
+  right: 70px;
+  padding: 0;
+}
+
+.animationDiagonal {
+  animation: elemMoveDiagonal 4s alternate both infinite;
+}
+
+.animationHorizontal {
+  animation: elemMoveHorizontal 4s alternate both infinite;
+}
+
+.animationVertical {
+  animation: elemMoveVertical 6s alternate both infinite;
+}
+
+.animationScale {
+  animation: elemScale 4s alternate both infinite;
+}
+
+@keyframes elemMoveDiagonal {
+  0% {transform: translate(0%, 0%) }
+  100% {transform: translate(50%, 50%) }
+}
+
+@keyframes elemMoveHorizontal {
+  0% {transform: translateX(0%) }
+  100% {transform: translateX(50%) }
+}
+
+@keyframes elemMoveVertical {
+  0% {transform: translateY(0%) }
+  100% {transform: translateY(50%) }
+}
+
+@keyframes elemScale {
+  0% {transform: scale(1) }
+  100% {transform: scale(1.3) }
+}
+
+
+
+
+
